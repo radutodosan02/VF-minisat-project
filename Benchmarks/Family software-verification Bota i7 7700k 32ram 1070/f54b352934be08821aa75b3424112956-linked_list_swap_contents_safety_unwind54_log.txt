@@ -1,0 +1,30 @@
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:       1925993                                         |
+|  Number of clauses:        21035273                                         |
+|  Parse time:                   3.49 s                                       |
+|  Eliminated clauses:          91.50 Mb                                      |
+|  Simplification time:        114.74 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+|       100 |  677712  7033649 66562570 |  2579004      100     13 | 15.448 % |
+|       250 |  677711  7033649 66562570 |  2836905      249   1344 | 15.448 % |
+|       475 |  677708  7033649 66562570 |  3120595      472   1887 | 15.448 % |
+|       812 |  677707  7033649 66562570 |  3432655      808   2000 | 15.448 % |
+|      1318 |  677683  7033649 66562570 |  3775920     1301   1737 | 15.450 % |
+|      2077 |  677596  7033395 66562062 |  4153512     1974   1820 | 15.454 % |
+===============================================================================
+restarts              : 15
+conflicts             : 2903           (22 /sec)
+decisions             : 980748         (0.00 % random) (7382 /sec)
+propagations          : 118035249      (888484 /sec)
+conflict literals     : 4403078        (28.10 % deleted)
+Memory used           : 3637.00 MB
+CPU time              : 132.85 s
+
+UNSATISFIABLE
+MiniSat a returnat un cod de eroare 20 pentru fișierul f54b352934be08821aa75b3424112956-linked_list_swap_contents_safety_unwind54.cnf.

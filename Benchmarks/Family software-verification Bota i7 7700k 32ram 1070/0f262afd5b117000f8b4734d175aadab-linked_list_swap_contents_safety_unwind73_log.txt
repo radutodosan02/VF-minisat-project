@@ -1,0 +1,31 @@
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:       2931243                                         |
+|  Number of clauses:        36174409                                         |
+|  Parse time:                   6.59 s                                       |
+|  Eliminated clauses:         158.47 Mb                                      |
+|  Simplification time:        339.22 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+|       100 |  912004 11499660 118612270 |  4216542       99     87 | 18.146 % |
+|       250 |  911993 11499660 118612270 |  4638196      240   1090 | 18.146 % |
+|       475 |  911986 11499660 118612270 |  5102015      458   1573 | 18.146 % |
+|       812 |  911976 11499660 118612270 |  5612217      788   1263 | 18.147 % |
+|      1318 |  911872 11499660 118612270 |  6173439     1201   1654 | 18.150 % |
+|      2077 |  911633 11498453 118609780 |  6790783     1751   1779 | 18.158 % |
+|      3216 |  910923 11498453 118609780 |  7469861     2595   2118 | 18.182 % |
+===============================================================================
+restarts              : 25
+conflicts             : 4625           (12 /sec)
+decisions             : 4881952        (0.00 % random) (12550 /sec)
+propagations          : 300655951      (772889 /sec)
+conflict literals     : 7974105        (28.47 % deleted)
+Memory used           : 6090.00 MB
+CPU time              : 389.003 s
+
+UNSATISFIABLE
+MiniSat a returnat un cod de eroare 20 pentru fișierul 0f262afd5b117000f8b4734d175aadab-linked_list_swap_contents_safety_unwind73.cnf.
