@@ -1,0 +1,32 @@
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:       3345193                                         |
+|  Number of clauses:        42768117                                         |
+|  Parse time:                   5.31 s                                       |
+|  Eliminated clauses:         187.70 Mb                                      |
+|  Simplification time:        373.38 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+|       100 |  998314 13374686 141020839 |  4904051      100     58 | 18.972 % |
+|       250 |  998306 13374686 141020839 |  5394456      242   2162 | 18.972 % |
+|       475 |  998228 13374686 141020839 |  5933902      401   3262 | 18.974 % |
+|       812 |  998145 13374686 141020839 |  6527292      683   3826 | 18.977 % |
+|      1318 |  998135 13374686 141020839 |  7180021     1180   4423 | 18.977 % |
+|      2077 |  997954 13374686 141020839 |  7898024     1807   4265 | 18.982 % |
+|      3216 |  997567 13372486 141016439 |  8687826     2559   3921 | 18.994 % |
+|      4924 |  997251 13372486 141016439 |  9556609     4128   4106 | 19.003 % |
+===============================================================================
+restarts              : 31
+conflicts             : 6570           (15 /sec)
+decisions             : 7775088        (0.00 % random) (18296 /sec)
+propagations          : 373160200      (878084 /sec)
+conflict literals     : 20981723       (9.53 % deleted)
+Memory used           : 7617.00 MB
+CPU time              : 424.971 s
+
+UNSATISFIABLE
+MiniSat a returnat un cod de eroare 20 pentru fișierul 573cc82ec61e01fd6e6308493ee56289-linked_list_swap_contents_safety_unwind80.cnf.
